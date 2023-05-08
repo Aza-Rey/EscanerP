@@ -1,0 +1,24 @@
+#contenedor video{
+	max-width: 30%;
+	width: 30%;
+}
+#contenedor{
+	max-width: 100%;
+	position:relative;
+}
+canvas{
+	max-width: 100%;
+}
+canvas.drawingBuffer{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+
+body {
+  heigh:665px;
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-textura-muro-hormigon-rugoso-blanco_44706-354.jpg");
+  background-size: 10rem;
+  
+}

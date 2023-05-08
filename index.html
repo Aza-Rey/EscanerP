@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Escaner para código de barras</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body align ="center">
+		<img id = "LOGO" src="LOGO.PNG" align="center" height="150"/>
+		<p id="resultado">   </p>
+		<p id="txt_indicaciones">Presione el botón para iniciar el escaneo</p>
+		<button id = "btn_escaneo">Escanear</button>
+		<div id="contenedor"></div>
+		<!-- Cargamos Quagga y luego nuestro script -->
+		<script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
+   <script src="script.js"></script>
+  </body>
+
+</html>
